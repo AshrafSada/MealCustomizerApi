@@ -1,6 +1,7 @@
-namespace MealCustomizerApi.Contracts.MealRecords;
+namespace MealCustomizerApi.Api.MealRecords;
 
-public record UpsertMealRequest(
+public record CreateMealResponse(
+    Guid Id,
     string Name,
     string Description,
     DateTime StartDateTime,

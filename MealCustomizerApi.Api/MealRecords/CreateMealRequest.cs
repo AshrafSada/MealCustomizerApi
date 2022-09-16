@@ -1,4 +1,4 @@
-namespace MealCustomizerApi.Contracts.MealRecords;
+namespace MealCustomizerApi.Api.MealRecords;
 
 public record CreateMealRequest(
     string Name,

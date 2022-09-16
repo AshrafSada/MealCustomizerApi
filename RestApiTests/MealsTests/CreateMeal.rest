@@ -1,0 +1,12 @@
+@host= https://localhost:7109/meals/
+POST {{host}}
+Content-Type: application/json
+
+{
+    "name": "Vegan Sunshine",
+    "description": "Vegan everything! Join us for a healthy meal..",
+    "startDateTime": "2022-04-08T08:00:00",
+    "endDateTime": "2022-04-08T11:00:00",
+    "savories": ["Oatmeal", "Avocado Toast", "Omelette", "Salad"],
+    "Sweets": ["Cookie"]
+}
